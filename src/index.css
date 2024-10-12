@@ -1,0 +1,24 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+}
+/* 
+@media (max-width: 550px) {
+  html {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.child {
+  overflow: visible;
+  max-width: 100%;
+  position: relative; /* Make sure the parent is positioned */
+/* } */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,18 @@
+.floorplan-main-container {
+  .floorplan-img-section {
+    .plan-btn {
+      position: absolute;
+      bottom: 50%; // Adjust this value to position the button vertically
+      transform: translateX(-50%);
+      background-color: #ef4939;
+      color: #fff;
+      // letter-spacing: 1px;
+      // font-size: 1.25rem;
+      z-index: 3;
+
+      &:hover {
+        background-color: #d43f30; // Slightly darker on hover
+      }
+    }
+  }
+}

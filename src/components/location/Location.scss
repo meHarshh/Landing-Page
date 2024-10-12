@@ -1,0 +1,28 @@
+.location-main-container {
+  .container {
+    .facilities-container {
+      width: 400px; /* Adjust the width as needed */
+    }
+
+    h6 {
+      cursor: pointer;
+      padding: 5px;
+      transition: color 0.3s, border-bottom 0.3s;
+
+      &.active-facility {
+        color: #079d1d; /* Change to the color you want */
+        border-bottom: 2px solid #079d1d; /* Underline effect */
+      }
+    }
+  }
+}
+
+@media (max-width: 395px) {
+  .location-main-container {
+    .container {
+      .facilities-container {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+/* Header.scss */
+
+.navbar {
+  position: sticky; /* Make the navbar stick to the top */
+  top: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #BECBDB;
+}
+
+.navbar-toggler {
+  border: none; /* Remove default border if needed */
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px; /* Adjust padding as needed */
+}
+
+/* Optionally adjust styles for small screens */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 0;
+  }
+}
+
+// Header.scss
+.collapse {
+  display: none; // Hide by default
+}
+
+.collapse.show {
+  display: block; // Show when toggled
+}
+
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  .sattva-logo {
+    height: 40px; /* Adjust this to your preferred size */
+    width: auto;
+  }
+}

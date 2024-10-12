@@ -1,0 +1,12 @@
+.about-container {
+  .abt-btn {
+    background-color: #ef4939;
+    color: #fff;
+    // letter-spacing: 1px;
+    // font-size: 1.25rem;
+
+    &:hover {
+      background-color: #d43f30; // Slightly darker on hover
+    }
+  }
+}

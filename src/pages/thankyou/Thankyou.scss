@@ -1,0 +1,12 @@
+.thank-you-background {
+  background-image: url("../../assets/images/thankyou/Thank you - 2.jpg"); /* Default desktop image */
+  background-size: cover;
+}
+
+@media (max-width: 550px) {
+  /* Adjust the breakpoint as needed */
+  .thank-you-background {
+    background-image: url("../../assets/images/thankyou/Thank you - 1.jpg"); /* Mobile image */
+    background-size: contain;
+  }
+}

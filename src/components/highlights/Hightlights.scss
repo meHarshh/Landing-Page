@@ -1,0 +1,28 @@
+.highlights-main-container {
+  background: rgba(189, 195, 208, 0.5);
+
+  section {
+    .highlights-heading {
+      h2 {
+        font-family: "Poppins";
+      }
+    }
+
+    .highlights-content {
+      // .highlights-left-side, .highlights-right-side {
+      //   // Optional: If needed, you can add specific styles here
+      // }
+
+      .btn {
+        background: #ef4939;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+          background-color: #d43f30; // Slightly darker on hover
+        }
+      }
+    }
+  }
+}

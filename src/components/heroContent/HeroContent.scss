@@ -1,0 +1,193 @@
+// .hero-main-container {
+//   position: relative;
+//   width: 100%;
+//   height: 700px;
+//   .banner-background {
+//     // background-color: rgb(0, 0, 0,0.5);
+//     background-size: cover;
+//     background-position: center;
+//     transition: background-image 1s ease-in-out; /* Smooth transition */
+//   }
+
+//   .hero-content {
+//     .hero-overlay-content {
+//       z-index: 10;
+//       width: 100%;
+//       top: 60%;
+//       left: 33%;
+//       transform: translate(-50%, -50%);
+//       text-align: center;
+//       color: white;
+//       padding: 1rem;
+
+//       h4,
+//       h1,
+//       h2 {
+//         margin: 0;
+//       }
+//     }
+
+//     .hero-icon-div {
+//       top: 20%;
+//       right: 2%;
+//       transition: right 0.5s ease-in-out, transform 0.5s ease-in-out;
+//       transform: translateY(-50%);
+//       background: #ffffff;
+
+//       &.icon-visible {
+//         right: calc(
+//           100% - 79.7%
+//         ); // Adjust the icon's position along with the form
+//       }
+
+//       &.icon-hidden {
+//         right: 1%; // Reset icon to original position
+//       }
+//       .mail-icon {
+//         width: 50px;
+//         height: 50px;
+//       }
+//     }
+
+//     .hero-form-div {
+//       background: #f9f5ef;
+//       top: 15.3%;
+//       //   right: -100%;
+//       transition: transform 0.5s ease-in-out;
+
+//       &.form-visible {
+//         right: 0;
+//       }
+
+//       &.form-hidden {
+//         right: -100%;
+//       }
+
+//       form {
+//         div {
+//           .hero-form-btn {
+//             background: #caac8d;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// //button from uiverse
+// /* From Uiverse.io by adamgiebl */
+// .cssbuttons-io-button {
+//   background: #0b0e46;
+//   color: white;
+//   font-family: inherit;
+//   padding: 0.35em;
+//   padding-left: 1.2em;
+//   font-size: 17px;
+//   font-weight: 500;
+//   border-radius: 0.9em;
+//   border: none;
+//   letter-spacing: 0.05em;
+//   display: flex;
+//   align-items: center;
+//   box-shadow: inset 0 0 1.6em -0.6em #280eab;
+//   overflow: hidden;
+//   position: relative;
+//   height: 2.8em;
+//   padding-right: 3.3em;
+//   cursor: pointer;
+// }
+
+// .cssbuttons-io-button .icon {
+//   background: white;
+//   margin-left: 1em;
+//   position: absolute;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 2.2em;
+//   width: 2.2em;
+//   border-radius: 0.7em;
+//   box-shadow: 0.1em 0.1em 0.6em 0.2em #3934ba;
+//   right: 0.3em;
+//   transition: all 0.3s;
+// }
+
+// .cssbuttons-io-button:hover .icon {
+//   width: calc(100% - 0.6em);
+// }
+
+// .cssbuttons-io-button .icon svg {
+//   width: 1.1em;
+//   transition: transform 0.3s;
+//   color: #141955;
+// }
+
+// .cssbuttons-io-button:hover .icon svg {
+//   transform: translateX(0.1em);
+// }
+
+// .cssbuttons-io-button:active .icon {
+//   transform: scale(0.95);
+// }
+
+// .carousel-item {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 24px;
+}
+
+.custom-prev-arrow {
+  left: 10px;
+}
+
+.custom-next-arrow {
+  right: 10px;
+}
+
+.connect-us-a-tag {
+  top: 68%;
+  left: 20.7%;
+}
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .connect-us-a-tag {
+    top: 51%;
+    left: 21.5%;
+  }
+}
+
+@media (max-width: 450px) {
+  .connect-us-a-tag {
+    top: 76.5%;
+    left: 31%;
+  }
+}
+@media (max-width: 391px) {
+  .connect-us-a-tag {
+    top: 93.5%;
+    left: 30%;
+  }
+}

@@ -1,0 +1,31 @@
+.home-pg-form {
+  .home-form-div {
+    width: 100%;
+    .home-form {
+      right: 10px;
+      width: 25%;
+    }
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 2000px) {
+  .home-pg-form {
+    .home-form-div {
+      .home-form {
+        width: 18%;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .home-pg-form {
+    .home-form-div {
+      display: flex;
+      justify-content: center;
+      .home-form {
+        width: 75%;
+      }
+    }
+  }
+}

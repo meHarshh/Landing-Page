@@ -1,0 +1,26 @@
+.home-main-container {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+@media (min-width: 700px) and (max-width: 2050px) {
+  .home-main-container {
+    .home-content-form {
+      .home-form {
+        position: fixed;
+        top: 120px;
+        right: 0px ;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .home-main-container {
+    .home-content-form {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
